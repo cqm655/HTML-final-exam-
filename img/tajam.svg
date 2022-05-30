@@ -1,0 +1,23 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 29" width="73" height="29">
+	<title>Header</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="-37.187" y1="-8.5" x2="35.813" y2="-8.5">
+			<stop offset="0" stop-color="#00e0d0"  />
+			<stop offset="1" stop-color="#4aa3cc"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 30px;fill:  url(#grd1);font-weight: 250;font-family: "Roboto-Thin", "Roboto" } 
+	</style>
+	<g id="Header">
+		<g id="Navbar">
+			<g id="Logo">
+				<text id="tajam" style="transform: matrix(1,0,0,1,37.187,23)" >
+					<tspan x="-37.288" y="0" class="txt0">t</tspan><tspan  y="0" class="txt0">ajam
+</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,29 @@
+.sidebar {
+    
+    background-color: $color--dark;
+    min-height: 100vh;
+    overflow-y: auto;
+
+    .nav-item{
+         display: flex;
+         align-items: center;
+
+        a{
+            color: $color--light-grey;
+        }
+
+
+span{
+    color: $color--light-grey;
+}
+
+        &:hover{
+            a{
+                color: $color--primary;
+            } 
+            span{
+                color: $color--primary;
+            }
+        }
+    }
+}

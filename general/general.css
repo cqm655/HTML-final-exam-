@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Robot';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+.wrapper{
+    background-image: url('../img/WallpaperDog-20361144.jpg');
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    overflow: hidden;
+    min-width: 800px;
+}
+.transparentt{
+    background-color: rgba(63,52,98,0.9);
+    width: 100%;
+    height: 120vh;
+}
+
+    .bg-light {
+        --bs-bg-opacity: 0.;
+        background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
+        align-items: flex-end;
+    }
+
+  
+   .navbar-light .navbar-brand{
+       color:#fff;
+       font-size: 13px;
+   }
+   .navbar-light .navbar-brand:hover{
+    color: #00e0d0;
+    
+}
+   
+   .nav{
+       flex-wrap:unset;
+       padding: 1px 100px;
+   }
+   .logo{
+       display: flex;
+       padding: 0 150px;
+       margin-left: 40px;
+   }
+   .line{
+       border: 2px solid;
+       color: #8a75c7;
+   }
+   .text-center{
+       padding: 100px 250px;
+       color: #fff;
+   }
+.text-center h1{
+    font-size: 32px;
+}
+.text-center h3{
+    font-size: 14px;
+}
+hr{
+    height: 3px;
+    width: 40px;
+    color: #00e0d0;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.buton{
+    text-align: center;
+}
+.dot1{
+    border: 2px solid;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    color: #00e0d0;
+    
+}
+.dott{
+    position: relative;
+}
+
+.dot{
+    position: relative;
+    margin: calc(10% - 10px);
+    text-align: center;
+}
+
+.ourstory{
+    width: 100%;
+    height: 400px;
+}
+
+.ourstory h1{
+    font-size: 22px;
+}
+.ourstory h4{
+    font-size: 14px;
+}
+
+.ourstory1 {
+    position: relative;
+    color: #fff;
+    text-align: -webkit-center;
+    top: calc(30% + 100px);
+}
+.playbutton{
+    
+        border: 0;
+        background: transparent;
+        box-sizing: border-box;
+        width: 0;
+        height: 74px;
+      
+        border-color: transparent transparent transparent #fff;
+        transition: 100ms all ease;
+        cursor: pointer;
+      
+        
+        border-style: solid;
+        border-width: 37px 0 37px 60px;
+      
+        
+      
+      
+}
+
+.cub{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    padding: 20px;
+}
+.cub, h1{
+    font-size: 14px;
+    /* padding: 10px; */
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.cub, h3{
+    font-size: 13px;
+    text-align: center;
+}
+
+.avatarbar img{
+                           display: flex;
+                           vertical-align: middle;
+                           width: 50px;
+                           height: 50px;
+                           border-radius: 50%;
+}
+
+.avatarbar img:hover{
+    display: flex;
+                           vertical-align:middle;
+                           width: 80px;
+                           height: 80px;
+                           border-radius: 50%;
+}
+
+.help .a{
+    margin: 0;
+}
+
+.butonn{
+    width: 70px;
+    height: 50px;
+    color: #9a93ad;
+    border: 2px solid;
+    border-radius: 10%;
+    background-color: rgba(154,147,173, 0.6);
+}
+.circle{
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    vertical-align: middle;
+    border-color: #fff;
+    border: 2px solid;
+    align-items: center;
+    place-content: center;
+    margin-right: 10px;
+}
+.cirlce, .img{
+    width: 7px;
+    height: 17px;
+}
+
